@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /*------Color variables-------*/
+    --blue_gray_400: #86a395;
+    --blue_gray_400_01: #85a487;
+    --blue_gray_700: #4e5257;
+    --blue_gray_900: #2e2e30;
+    --blue_gray_900_01: #2e2f32;
+    --blue_gray_900_02: #272d2e;
+    --blue_gray_900_03: #323032;
+    --blue_gray_900_04: #32353a;
+    --blue_gray_900_05: #2d3033;
+    --blue_gray_900_06: #234738;
+    --gray_400: #c0c7bb;
+    --gray_50: #fbfcfc;
+    --gray_500: #9a9a9d;
+    --gray_500_01: #8a9e9a;
+    --gray_50_01: #f8faf7;
+    --gray_50_02: #fafafb;
+    --gray_600: #6c6c6d;
+    --gray_700: #585656;
+    --green_100: #cedecf;
+    --green_100_01: #d4e2d1;
+    --green_100_02: #c7edc6;
+    --green_100_03: #c5d2c9;
+    --green_100_04: #c3e8c7;
+    --green_100_05: #d1edd5;
+    --green_100_06: #c7e7c9;
+    --green_100_07: #d0ead3;
+    --green_500: #47a25d;
+    --green_500_01: #38b767;
+    --green_500_02: #48a35c;
+    --green_500_03: #4da861;
+    --white_a700: #fefdfd;
+    --white_a700_01: #fefefe;
+    --white_a700_02: #ffffff;
+
+    /*------Border radius variables------*/
+    --radius-xs: 10px;
+    --radius-sm: 14px;
+    --radius-md: 16px;
+    --radius-lg: 22px;
+    --radius-xl: 28px;
+    --radius-2xl: 36px;
+
+    /*------Spacing variables------*/
+    --space-xs: 20px;
+    --space-sm: 24px;
+    --space-md: 30px;
+    --space-lg: 32px;
+    --space-xl: 36px;
+    --space-2xl: 40px;
+    --space-3xl: 46px;
+    --space-4xl: 48px;
+  }
+}
+
+@layer components {
+  /*-----------------------------*/
+  /* Container CSS */
+  /*-----------------------------*/
+  .container-xs {
+    @apply w-full mx-auto max-w-[1298px];
+  }
+}

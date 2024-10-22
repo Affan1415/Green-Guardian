@@ -1,0 +1,32 @@
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/OutfitRegular.ttf");
+    font-family: "Outfit";
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/OutfitSemiBold.ttf");
+    font-family: "Outfit";
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/NunitoSemiBoldItalic.ttf");
+    font-family: "Nunito";
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/OutfitMedium.ttf");
+    font-family: "Outfit";
+    font-weight: 500;
+  }
+  
